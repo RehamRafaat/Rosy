@@ -1,0 +1,377 @@
+/************ General style *****************/
+*{
+    font-family: cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:1170px;
+    margin: auto;
+}
+
+
+/************** End General Style *************/
+
+/************** Start Header ******************/
+
+/**** Start hero-sec ****/
+.header .hero-sec{
+    height: 580px;
+    background-image: url(../img/header1.jpg);
+    background-size: contain;
+    margin-top: -130px;
+}
+.header .hero-sec .container .welcome-txt h4,p{
+    text-align: center;
+}
+.header .hero-sec .container .welcome-txt h4{
+    font-size: 90px;
+    font-weight: bold;
+    color:#e43774;
+    position: relative;
+    top:80px;
+}
+.header .hero-sec .container .welcome-txt p{
+    font-size: 22px;
+    position: relative;
+}
+.header .hero-sec .container .btn{
+     width:150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.header .hero-sec .container .btn button{
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background-color: #94c547;
+    color: white;
+    border-color: #94c547;
+    cursor: pointer;
+}
+.header .hero-sec .container .btn button:hover{
+    background-color: white;
+    color: #94c547;
+    border-color: #94c547;
+}
+/**** End hero-sec ****/
+/**** Start nav ****/
+.header .navbar{
+    background-color: #c2d2e0;
+    color: #e43774;
+    overflow: hidden;
+    position: sticky;
+}
+.header .navbar h2,img{
+    float: left;
+}
+.header .navbar img{
+    width: 60px;
+    height: 50px;
+    padding: 10px;
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+.header .navbar a{
+    color:#e43774;
+}
+.active{
+    color: white;
+}
+
+/**** End nav ****/
+
+/******************* End Header ***************/
+
+/******************* Start About ***************/
+#about{
+    height: 300px;
+    padding: 50px;
+}
+#about h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:#e43774;
+}
+#about .about-content{
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#about p{
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+/******************* End About ***************/
+
+/******************* Start Flowers Type ***************/
+#flower_types{
+    height: 1000px;
+    padding: 50px;
+    padding-top: 60px;
+    background-color: #D1DBF5;
+}
+#flower_types h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:#e43774;
+}
+#flower_types .flower-types-content{
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#flower_types p{
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+#flower_types .card{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+}
+#flower_types .card:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#flower_types .flower-types-imgs{
+    margin: 0 auto;
+    padding: 90px;
+}
+#flower_types .flower-types-imgs .flower-name h3{
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 100px;
+    color:#e43774;
+}
+/******************* End Flowers Type ***************/
+
+/******************* Start floral basket ***************/
+#floral-basket{
+    height: 400px;
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#floral-basket .floral-desc{
+    display: inline-block;
+     width: 800px;
+}
+#floral-basket .floral-desc .floral-basket-content{
+    padding: 120px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#floral-basket .floral-desc .floral-basket-content h2{
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    color:#e43774;
+}
+#floral-basket .floral-desc .floral-basket-content p{
+    text-align: left;
+    line-height: 50px;
+    font-size: 20px;
+}
+#floral-basket .floral-card{
+    display: inline-block;
+}
+#floral-basket .floral-card img{
+    width: 350px;
+    height: 350px;
+}
+/******************* End floral basket ***************/
+
+
+/******************* Start flowers-benefits ***************/
+#flowers-benefits{
+    height: 400px;
+    padding: 50px;
+    background-image: url(../img/flower-benefits.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#flowers-benefits h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:#e43774;
+}
+#flowers-benefits .benefits-content{
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#flowers-benefits p{
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+}
+/******************* End flowers-benefits ***************/
+
+
+/******************* Start visit us ***************/
+#visit{
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+#visit img{
+    height: 500px;
+    width: 800px;
+}
+#visit .visit-desc h2{
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    color:#e43774;
+}
+#visit visit-desc{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: right;
+}
+#visit .visit-desc p{
+    text-align: left;
+    justify-content: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+/******************* End visit us ***************/
+
+
+/******************* Start Contact ***************/
+#contact{
+    height: 400px;
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#contact .contact-desc{
+    display: inline-block;
+     width: 800px;
+    margin-top: -50px;
+}
+#contact .contact-desc .contact-content{
+    padding: 120px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#contact .contact-desc .contact-content h2{
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    color:#e43774;
+}
+#contact .contact-desc .contact-content ul{
+    list-style: none;
+    text-align: left;
+    line-height: 100px;
+    font-size: 28px;
+}
+#contact .contact-desc .contact-content ul{
+    margin-left: -35px;
+    color:#e43774;
+}
+#contact .contact-desc .contact-content ul i{
+    font-size: 35px;
+}
+#contact .contact-desc .contact-content ul span{
+    color:black;
+}
+#contact .contact-form{
+    display: inline-block;
+}
+#contact .contact-form img{
+    width: 350px;
+    height: 350px;
+}
+#contact .container .contact-form .btn{
+    width:150px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+#contact .container .contact-form .btn button{
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background-color: #94c547;
+    color: white;
+    border-color: #94c547;
+    cursor: pointer;
+}
+#contact .container .contact-form input,textarea{
+    height: 35px;
+    width: 345px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #e43774;
+}
+#contact .container .contact-form textarea{
+    height: 100px;
+}
+#contact .container .contact-form .btn button:hover{
+    background-color: white;
+    color: #94c547;
+    border-color: #94c547;
+}
+/******************* End Contact ***************/
+
+
+/******************* Start Footer ***************/
+.footer{
+    height: 150px;
+    text-align: center;
+    background-color:rgb(150, 150, 250);
+}
+.footer ul{
+   list-style: none;
+}
+.footer ul img{
+    width:50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+.footer ul img:hover{
+    opacity: 0.5;
+}
+.footer ul{
+   list-style: none;
+}
+.footer .social{
+    padding-top: 10px;
+    height: 100px;
+    width: 350px;
+    margin: 0 auto;
+}
+.footer .copyrights{
+    padding: 2px;
+    background-color:rgb(100, 100, 250);
+}
+/******************* End Footer ***************/
